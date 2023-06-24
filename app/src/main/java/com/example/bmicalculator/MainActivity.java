@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     double heightInMetre= hCM/100;
                     double WeightKg= Double.parseDouble(String.valueOf(myWeight));
                     double BMI= (WeightKg/(heightInMetre*heightInMetre));
-                    Result.setText( "Your BMI is "+String.valueOf((int) BMI));
+                    Result.setText( "Your BMI is "+String.valueOf((int) BMI+""));
                 }
             }
         });
